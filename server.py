@@ -11,5 +11,5 @@ print("Server is listening on port", port)
 while True:
     client, addr = tcpSocket.accept()
     print("Got connection from", addr)
-    client.send(b"hello")  # Send greeting message
+    client.send(b"hello Tehran")  # Send greeting message
     client.close()
