@@ -8,7 +8,7 @@ services:
     networks:
       - mynetwork
     ports:
-      - "4401:4101"  # Expose port for external access
+      - "4401:4401"  # Expose port for external access
 
   client:
     build:
