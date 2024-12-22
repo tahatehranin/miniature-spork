@@ -21,6 +21,6 @@ To build the Docker images defined in the `docker-compose.yml` file, run the fol
 
 ```bash
 docker-compose up --build
-
+```
 ```bash
 docker-compose run client
